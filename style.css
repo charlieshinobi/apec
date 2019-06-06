@@ -493,12 +493,12 @@ p {
 }
 
 a:link, a:visited {
-	color: #dd5638;
+	color: #FFF;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #c9302c;
+	color: #FFF;
 }
 
 blockquote {
@@ -711,8 +711,8 @@ button, input, .btn, a.btn {
 	background-image: url(assets/images/promo01.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 214px;
-	padding: 25px 20px;
+	min-height: 218px;
+	padding: 20px 20px;
 }
 .promo1 .tit{
 	font-size: 28px;
@@ -733,8 +733,8 @@ button, input, .btn, a.btn {
 	background-image: url(assets/images/promo02.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 214px;
-	padding: 30px 20px;
+	min-height: 218px;
+	padding: 20px 20px;
 }
 .promo2 .tit{
 	font-size: 28px;
@@ -755,8 +755,8 @@ button, input, .btn, a.btn {
 	background-image: url(assets/images/promo03.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 214px;
-	padding: 30px 20px;
+	min-height: 218px;
+	padding: 20px 20px;
 }
 .promo3 .tit{
 	font-size: 28px;

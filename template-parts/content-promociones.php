@@ -1,5 +1,4 @@
 <!-- PROMOCIONES DEL MES -->
-
 <section id="promociones" class="promociones">
 
   <div class="container clearfix">
@@ -9,21 +8,22 @@
       </div>
     </div>
     <div class="row">
-      <div id="link-catarata" class="col-md-4 promo1">
-        <div class="tit">adiós catarata</div>
-        <div class="sub">La ceguera por catarata es reversible. La intervención quirúrgica dura menos de 25 minutos y es ambulatoria. Aprovecha nuestro precio promocional y despídete de la catarata.</div>
-        <div class="precio">$12,000.00 + IVA</div>
+      <?php $loop = new WP_Query( array ('post_type' => 'promociones_home', 'orderby' => 'post_date', 'order' => 'ASC') ); ?>
+      <?php
+        $cont = 0;
+      while($loop->have_posts() ) : $loop->the_post();
+        $promociones_precio   = get_field('promociones_precio');
+        $promociones_link   = get_field('promociones_link');
+        $cont++;
+        $name_class = "promo".$cont;
+      ?>
+      <a href="<?php echo $promociones_link;?>"><div class="col-md-4 <?php echo $name_class; ?>">
+        <div class="tit"><?php the_title(); ?></div>
+        <div class="sub"><?php the_content(); ?></div>
+        <div class="precio"><?php echo $promociones_precio; ?></div>
       </div>
-      <div class="col-md-4 promo2">
-        <div class="tit">cirugía lasik</div>
-        <div class="sub">La cirugía refractiva es la mejor solución para diversas patologías denominados defectos retroactivos (miopía, hipermetropía y astigmatismo).</div>
-        <div class="precio">$8,450.00 + IVA</div>
-      </div>
-      <div class="col-md-4 promo3">
-        <div class="tit">extramuros</div>
-        <div class="sub">El programa consiste en realizar cirugías a personas de escasos recursos en comunidades apartadas. especializados a su alcance. ¡Llegamos a ti!.</div>
-
-      </div>
+    </a>
+      <?php endwhile; wp_reset_query();?>
     </div>
   </div>
 

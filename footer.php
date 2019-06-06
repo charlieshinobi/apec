@@ -52,26 +52,7 @@
 <script type="text/javascript" src="//use.typekit.net/gla7wnd.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-<script>
 
-$('#link-catarata').click(function() {
-  window.open("http://www.adioscatarata.com");
-  return false;
-});
-$('#link-hospitalizacion').click(function() {
-  window.open("#");
-  return false;
-});
-$('#link-optica').click(function() {
-  window.open("#");
-  return false;
-});
-$('#link-valoracion').click(function() {
-  window.open("#");
-  return false;
-});
-
-</script>
 
 </body>
 </html>

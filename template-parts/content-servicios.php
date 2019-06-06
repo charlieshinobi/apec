@@ -9,15 +9,23 @@
       </div>
     </div>
     <div class="row">
-      <div id="link-hospitalizacion" class="col-md-4 serv1">
-        <div class="tit">hospitalización</div>
-      </div>
-      <div id="link-optica" class="col-md-4 serv2">
-        <div class="tit">óptica</div>
-      </div>
-      <div id="link-valoracion" class="col-md-4 serv3">
-        <div class="tit">valoración</div>
-      </div>
+
+      <?php $loop = new WP_Query( array ('post_type' => 'servicios_home', 'orderby' => 'post_date', 'order' => 'ASC') ); ?>
+      <?php
+        $cont = 0;
+      while($loop->have_posts() ) : $loop->the_post();
+
+        $servicios_link   = get_field('servicios_link');
+        $cont++;
+        $name_class = "serv".$cont;
+      ?>
+      <a href="<?php echo $servicios_link;?>">
+        <div class="col-md-4 <?php echo $name_class; ?>">
+          <div class="tit"><?php the_title(); ?></div>
+        </div>
+      </a>
+      <?php endwhile; wp_reset_query();?>
+
     </div>
   </div>
 
