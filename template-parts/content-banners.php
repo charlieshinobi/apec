@@ -1,7 +1,4 @@
 <?php
-// $prelaunch_price      = get_post_meta( 9, 'prelaunch_price', true);
-// $launch_price      = get_post_meta( 9, 'launch_price', true);
-// $final_price      = get_post_meta( 9, 'final_price', true);
 $banner_principal   = get_field('imagen');
 $horario_titulo   = get_field('horario_titulo');
 $horario_txt_1   = get_field('horario_txt_1');

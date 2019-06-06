@@ -42,36 +42,31 @@
       </div>
     </div>
 
+    <?php $loop = new WP_Query( array ('post_type' => 'malestar_home', 'orderby' => 'post_date', 'order' => 'ASC', 'posts_per_page' => '3') ); ?>
+    <?php
+      $cont = 0;
+    while($loop->have_posts() ) : $loop->the_post();
+      $malestar_link   = get_field('malestar_link');
+    ?>
+
     <div class="row malestar">
       <div class="col-md-3">
-          <img src="<?php bloginfo('template_directory'); ?>/assets/images/malestar1.jpg" class="img-responsive" />
+        <?php
+            if(has_post_thumbnail()){
+              the_post_thumbnail();
+            }
+        ?>
       </div>
       <div class="col-md-9">
-          <div class="titmal">catarata</div>
-          <div class="descmal">Es una opacidad parcial o total del cristalino del ojo que afecta la visión. La mayoría de las cataratas tienen relación con la edad. Aproximadamente a los 80 años de edad la mitad de la población tiene catarata.</div>
-          <div class="btnmal"><a href="#">Ver más</a></div>
+          <div class="titmal"><?php the_title(); ?></div>
+          <div class="descmal"><?php the_content(); ?></div>
+          <div class="btnmal"><a href="<?php echo $malestar_link; ?>">Ver más</a></div>
       </div>
     </div>
-    <div class="row malestar">
-      <div class="col-md-3">
-          <img src="<?php bloginfo('template_directory'); ?>/assets/images/malestar1.jpg" class="img-responsive" />
-      </div>
-      <div class="col-md-9">
-          <div class="titmal">catarata</div>
-          <div class="descmal">Es una opacidad parcial o total del cristalino del ojo que afecta la visión. La mayoría de las cataratas tienen relación con la edad. Aproximadamente a los 80 años de edad la mitad de la población tiene catarata.</div>
-          <div class="btnmal"><a href="#">Ver más</a></div>
-      </div>
-    </div>
-    <div class="row malestar">
-      <div class="col-md-3">
-          <img src="<?php bloginfo('template_directory'); ?>/assets/images/malestar1.jpg" class="img-responsive" />
-      </div>
-      <div class="col-md-9">
-          <div class="titmal">catarata</div>
-          <div class="descmal">Es una opacidad parcial o total del cristalino del ojo que afecta la visión. La mayoría de las cataratas tienen relación con la edad. Aproximadamente a los 80 años de edad la mitad de la población tiene catarata.</div>
-          <div class="btnmal"><a href="#">Ver más</a></div>
-      </div>
-    </div>
+    <?php endwhile; wp_reset_query();?>
+
+
+
 
   </div>
   <div class="espacio-linea"></div>
