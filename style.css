@@ -1551,6 +1551,21 @@ footer li.signup-link a:hover {
 		width: 100%;
 		margin-right: 0;
 	}
+
+	.padecimientos{
+		background-color: #FFF;
+		margin-bottom: 20px;
+	}
+	.bkg-padecimientos{
+		background-color: #143163;
+		min-height: 100px;
+		padding: 20px 30px;
+	}
+	.img-padecimientos{
+		text-align: center;
+		padding: 0px;
+	}
+
 }
 @media screen and (max-width : 480px) {
 	/* .navbar-nav{
