@@ -10,28 +10,55 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+<!-- MAIN CONTENT
+================================================== -->
+<div class="container">
+	<div class="row" id="primary">
+
+		<main id="content" class="col-sm-8">
 
 		<?php
 		while ( have_posts() ) :
 			the_post();
 
-			get_template_part( 'template-parts/content', get_post_type() );
+			$categoria_post = get_the_category();
+			//echo get_category_parents( $categoria_post, true, ' &raquo; ' );
 
-			the_post_navigation();
+		 	$parentcat = get_cat_name($categoria_post[0]->category_parent);
+			$categoria_post = $categoria_post[0]->cat_name;
+			$categoria_post = strtolower($categoria_post);
+			$parentcat = strtolower($parentcat);
+
+			//get_template_part( 'template-parts/content', get_post_type() );
+			if($parentcat == 'padecimientos'){
+					get_template_part( 'template-parts/content', 'padecimientos' );
+			}
+			else{
+
+			}
+
+
+
+			//
+
+
+			//the_post_navigation();
 
 			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+			// if ( comments_open() || get_comments_number() ) :
+			// 	comments_template();
+			// endif;
 
 		endwhile; // End of the loop.
 		?>
 
-		</main><!-- #main -->
+	</main><!-- #content -->
+
+
+
 	</div><!-- #primary -->
+</div><!-- #container -->
 
 <?php
-get_sidebar();
+
 get_footer();

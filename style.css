@@ -943,6 +943,27 @@ button, input, .btn, a.btn {
 }
 /* SECTION FOOTER CLOSE */
 
+.padecimientos{
+	background-color: #143163;
+	margin-bottom: 20px;
+}
+.bkg-padecimientos{
+
+	color: #FFF;
+	font-weight: bold;
+	font-size: 32px;
+	text-transform: uppercase;
+	min-height: 276px;
+	padding: 30px 50px;
+}
+
+
+
+/* SECTION POST PADECIMIENTOS */
+
+
+/* SECTION POST PADECIMIENTOS CLOSE */
+
 .btn {
 	font-weight: bold;
 }
@@ -1326,7 +1347,7 @@ footer li.signup-link a:hover {
 	font-size: 24px;
 }
 
-.post-image {
+.post-image img{
 	height: auto;
 }
 
@@ -1458,6 +1479,13 @@ footer li.signup-link a:hover {
 }
 
 #menu-principal li a{
+	color: #000;
+}
+#menu-principal li a:hover{
+	color: #FFF;
+}
+#menu-principal li:hover{
+	background-color: #000;
 	color: #FFF;
 }
 

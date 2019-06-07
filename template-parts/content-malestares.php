@@ -47,6 +47,7 @@
       $cont = 0;
     while($loop->have_posts() ) : $loop->the_post();
       $malestar_link   = get_field('malestar_link');
+
     ?>
 
     <div class="row malestar">
