@@ -1569,6 +1569,17 @@ footer li.signup-link a:hover {
 		text-align: center;
 		padding: 0px;
 	}
+	.ban01 .tit{
+		margin: 0px;
+		padding-top: 30px;
+	}
+	.ban01 .sub{
+		font-weight: bold;
+		font-size: 24px;
+	}
+	.ban01 .txt{
+		font-size: 18px;
+	}
 
 }
 @media screen and (max-width : 480px) {
