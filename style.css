@@ -1580,6 +1580,29 @@ footer li.signup-link a:hover {
 	.ban01 .txt{
 		font-size: 18px;
 	}
+	.ban02 {
+		text-align: center;
+	}
+	.ban02 .tit{
+		margin: 0px;
+		padding-top: 30px;
+	}
+	.ban02 .sub{
+		font-weight: bold;
+		font-size: 24px;
+	}
+	.ban02 .txt{
+		font-size: 18px;
+	}
+	.ban02 .boton{
+		width: 150px;
+		font-size: 25px;
+		height: 50px;
+		line-height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+	}
 
 }
 @media screen and (max-width : 480px) {
@@ -1631,6 +1654,29 @@ footer li.signup-link a:hover {
 	}
 	.ban01 .txt{
 		font-size: 18px;
+	}
+	.ban02 {
+		text-align: center;
+	}
+	.ban02 .tit{
+		margin: 0px;
+		padding-top: 30px;
+	}
+	.ban02 .sub{
+		font-weight: bold;
+		font-size: 24px;
+	}
+	.ban02 .txt{
+		font-size: 18px;
+	}
+	.ban02 .boton{
+		width: 150px;
+		font-size: 25px;
+		height: 50px;
+		line-height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
 	}
 
 }
