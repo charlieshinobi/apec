@@ -816,6 +816,10 @@ button, input, .btn, a.btn {
 	background-color: #f1f1f1;
 	margin: 20px 0px;
 }
+.malestares .malestar .img-malestar{
+	text-align: left;
+	padding-left: 0px;
+}
 .malestares .titmal{
 	font-size: 24px;
 	font-weight: bold;

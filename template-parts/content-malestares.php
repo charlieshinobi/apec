@@ -51,7 +51,7 @@
     ?>
 
     <div class="row malestar">
-      <div class="col-md-3">
+      <div class="col-md-3 img-malestar">
         <?php
             if(has_post_thumbnail()){
               the_post_thumbnail();
