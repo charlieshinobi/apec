@@ -20,6 +20,8 @@ $diagnostico_descripcion   = get_field('diagnostico_descripcion');
 $tratamiento_titulo   = get_field('tratamiento_titulo');
 $tratamiento_descripcion   = get_field('tratamiento_descripcion');
 
+$limit_description = substr($que_descripcion,0,500);
+
 ?>
 
 
@@ -33,7 +35,7 @@ $tratamiento_descripcion   = get_field('tratamiento_descripcion');
 		</div>
 		<div class="col-md-9">
 				<div class="titmal"><?php the_title(); ?></div>
-				<div class="descmal"><?php echo $que_descripcion; ?></div>
+				<div class="descmal"><?php echo $limit_description."..."; ?></div>
 				<div class="btnmal"><a href="<?php the_guid(); ?>">Ver más</a></div>
 		</div>
 	</div>
