@@ -1645,6 +1645,46 @@ footer li.signup-link a:hover {
 		margin-right: auto;
 		margin-top: 50px;
 	}
+	#banners {
+		padding: 0px;
+	}
+	.promo1{
+		margin-bottom: 10px;
+	}
+	.promo2{
+		margin-bottom: 10px;
+	}
+	.promo3{
+		margin-bottom: 10px;
+	}
+	#malestares {
+		padding: 0px;
+	}
+	.malestares .btnmal {
+    border-radius: 5px;
+    border: 1px solid #000;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 10px;
+		font-size: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	.serv1{
+		margin-bottom: 10px;
+	}
+	.serv2{
+		margin-bottom: 10px;
+	}
+	.serv3{
+		margin-bottom: 10px;
+	}
+	#formulario {
+		padding: 0px;
+	}
 
 }
 @media screen and (max-width : 480px) {
@@ -1759,6 +1799,46 @@ footer li.signup-link a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 50px;
+	}
+	#banners {
+		padding: 0px;
+	}
+	.promo1{
+		margin-bottom: 10px;
+	}
+	.promo2{
+		margin-bottom: 10px;
+	}
+	.promo3{
+		margin-bottom: 10px;
+	}
+	#malestares {
+		padding: 0px;
+	}
+	.malestares .btnmal {
+    border-radius: 5px;
+    border: 1px solid #000;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 10px;
+		font-size: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	.serv1{
+		margin-bottom: 10px;
+	}
+	.serv2{
+		margin-bottom: 10px;
+	}
+	.serv3{
+		margin-bottom: 10px;
+	}
+	#formulario {
+		padding: 0px;
 	}
 
 }
