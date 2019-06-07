@@ -1685,6 +1685,11 @@ footer li.signup-link a:hover {
 	#formulario {
 		padding: 0px;
 	}
+	.malestares .malestar .img-malestar{
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 
 }
 @media screen and (max-width : 480px) {
@@ -1839,6 +1844,11 @@ footer li.signup-link a:hover {
 	}
 	#formulario {
 		padding: 0px;
+	}
+	.malestares .malestar .img-malestar{
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 
 }
