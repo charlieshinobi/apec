@@ -843,6 +843,13 @@ button, input, .btn, a.btn {
 .malestares .btnmal a:hover{
 	text-decoration: underline;
 }
+.res{
+	display:none;
+	text-align: justify;
+}
+.padtit{
+	cursor: pointer;
+}
 /* SECTION MALESTARES CLOSE */
 
 /* SECTION SERVICIOS */
