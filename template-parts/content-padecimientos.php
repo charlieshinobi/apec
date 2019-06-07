@@ -50,30 +50,33 @@ function mostrar(respuesta){
 
 
 		<div class="col-md-12">
-			<h3 onclick="mostrar('#que');" class="padtit">+ <?php echo $que_titulo; ?></h3>
+			<h3 onclick="mostrar('#que');" class="padtit"><img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-plus.png" /> <?php echo $que_titulo; ?></h3>
 			<div id="que" class="res"><?php echo $que_descripcion; ?></div>
 		</div>
 		<div class="col-md-12">
-			<h3 onclick="mostrar('#sintomas');" class="padtit">+ <?php echo $sintomas_titulo; ?></h3>
+			<h3 onclick="mostrar('#sintomas');" class="padtit"><img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-plus.png" /> <?php echo $sintomas_titulo; ?></h3>
 			<div id="sintomas" class="res"><?php echo $sintomas_descripcion; ?></div>
 		</div>
 		<div class="col-md-12">
-			<h3 onclick="mostrar('#factores');" class="padtit">+ <?php echo $factores_titulo; ?></h3>
+			<h3 onclick="mostrar('#factores');" class="padtit"><img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-plus.png" /> <?php echo $factores_titulo; ?></h3>
 			<div id="factores" class="res"><?php echo $factores_descripcion; ?></div>
 		</div>
 		<div class="col-md-12">
-			<h3 onclick="mostrar('#tipos');" class="padtit">+ <?php echo $tipos_titulo; ?></h3>
+			<h3 onclick="mostrar('#tipos');" class="padtit"><img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-plus.png" /> <?php echo $tipos_titulo; ?></h3>
 			<div id="tipos" class="res"><?php echo $tipos_descripcion; ?></div>
 		</div>
 		<div class="col-md-12">
-			<h3 onclick="mostrar('#diagnostico');" class="padtit">+ <?php echo $diagnostico_titulo; ?></h3>
+			<h3 onclick="mostrar('#diagnostico');" class="padtit"><img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-plus.png" /> <?php echo $diagnostico_titulo; ?></h3>
 			<div id="diagnostico" class="res"><?php echo $diagnostico_descripcion; ?></div>
 		</div>
 		<div class="col-md-12">
-			<h3 onclick="mostrar('#tratamiento');" class="padtit">+ <?php echo $tratamiento_titulo; ?></h3>
+			<h3 onclick="mostrar('#tratamiento');" class="padtit"><img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-plus.png" /> <?php echo $tratamiento_titulo; ?></h3>
 			<div id="tratamiento" class="res"><?php echo $tratamiento_descripcion; ?></div>
 		</div>
 	</div>
+
+
+
 </div>
 
 

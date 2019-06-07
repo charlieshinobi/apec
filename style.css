@@ -452,8 +452,6 @@ body {
 	font-size: 16px;
 	/* background: url('../img/tile.jpg') top left repeat; */
 	background-color: #FFF;
-
-
 }
 
 /* .logged-in .navbar-fixed-top {
@@ -963,7 +961,10 @@ button, input, .btn, a.btn {
 	min-height: 276px;
 	padding: 30px 50px;
 }
-
+.img-padecimientos{
+	text-align: right;
+	padding-right: 0px;
+}
 
 
 /* SECTION POST PADECIMIENTOS */
