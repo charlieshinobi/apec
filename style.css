@@ -1604,6 +1604,48 @@ footer li.signup-link a:hover {
 		margin-top: 50px;
 	}
 
+	.ban03 {
+		text-align: center;
+	}
+	.ban03 .tit{
+		margin: 0px;
+		padding-top: 30px;
+	}
+	.ban03 .sub{
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.ban03 .txt{
+		font-size: 18px;
+	}
+	.ban03 .iconos-redes .redes{
+		height: 50px;
+	}
+
+	.ban04 {
+		text-align: center;
+	}
+	.ban04 .tit{
+		margin: 0px;
+		padding-top: 30px;
+	}
+	.ban04 .sub{
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.ban04 .txt{
+		font-size: 18px;
+	}
+	.ban04 .boton{
+		width: 150px;
+		font-size: 25px;
+		height: 50px;
+		line-height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+	}
+
 }
 @media screen and (max-width : 480px) {
 	/* .navbar-nav{
@@ -1670,6 +1712,46 @@ footer li.signup-link a:hover {
 		font-size: 18px;
 	}
 	.ban02 .boton{
+		width: 150px;
+		font-size: 25px;
+		height: 50px;
+		line-height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+	}
+	.ban03 {
+		text-align: center;
+	}
+	.ban03 .tit{
+		margin: 0px;
+		padding-top: 30px;
+	}
+	.ban03 .sub{
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.ban03 .txt{
+		font-size: 18px;
+	}
+	.ban03 .iconos-redes .redes{
+		height: 50px;
+	}
+	.ban04 {
+		text-align: center;
+	}
+	.ban04 .tit{
+		margin: 0px;
+		padding-top: 30px;
+	}
+	.ban04 .sub{
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.ban04 .txt{
+		font-size: 18px;
+	}
+	.ban04 .boton{
 		width: 150px;
 		font-size: 25px;
 		height: 50px;
