@@ -1577,4 +1577,19 @@ footer li.signup-link a:hover {
 		background: rgb(0,0,0,.5);
 	}
 
+	.padecimientos{
+		background-color: #FFF;
+		margin-bottom: 20px;
+	}
+	.bkg-padecimientos{
+		background-color: #143163;
+		min-height: 100px;
+		padding: 20px 30px;
+	}
+	.img-padecimientos{
+		text-align: center;
+		padding: 0px;
+	}
+
+
 }
