@@ -159,3 +159,12 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+function prefix_modify_query_order( $query ) {
+  if ( is_main_query() ) {
+
+    $args =  array( 'post_name' => 'ASC' );
+
+    $query->set( 'orderby', $args );
+  }
+}
+add_action( 'pre_get_posts', 'prefix_modify_query_order' );
