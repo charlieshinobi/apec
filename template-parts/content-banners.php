@@ -45,7 +45,7 @@ $contactanos_youtube   = get_field('contactanos_youtube');
             <div class="col-md-6 ban02">
                 <div class="tit"><?php echo $emergencias_titulo; ?></div>
                 <div class="sub"><a href="tel:<?php echo $emergencias_telefono; ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/images/ico-phone.png" /><?php echo $emergencias_telefono; ?></a></div>
-                <div class="boton"><a href="tel:<?php echo $emergencias_telefono; ?>">Llamar</a></div>
+                <a href="tel:<?php echo $emergencias_telefono; ?>"><div class="boton">Llamar</div></a>
             </div>
         </div>
         <div class="row">
@@ -65,7 +65,7 @@ $contactanos_youtube   = get_field('contactanos_youtube');
             <div class="col-md-6 ban04">
               <div class="tit">&#161;DONA AHORA!</div>
               <div class="sub">Tú puedes iluminar miles de vidas en México</div>
-              <div class="boton"><a href="http://apec.org.mx/donativos/index.html" target="_blank">Donar</a></div>
+              <a href="http://apec.org.mx/donativos/index.html" target="_blank"><div class="boton">Donar</div></a>
             </div>
         </div>
       </div>

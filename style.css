@@ -616,7 +616,7 @@ button, input, .btn, a.btn {
 	font-weight: bold;
 }
 .ban02{
-	background-color: #b91515;
+	background-color: rgba(0,0,0,0.8);
 	min-height: 276px;
 	color: #FFF;
 }
@@ -628,22 +628,26 @@ button, input, .btn, a.btn {
 	line-height: 32px;
 }
 .ban02 .boton{
-	border-radius: 5px;
-  border: 1px solid #FFF;
-  width: 90px;
+	background-color: #822854;
+	border-radius: 1px;
+	-webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+  width: 80%;
   height: 30px;
 	line-height: 30px;
 	text-align: center;
 	margin-top: 40px;
+	text-transform: uppercase;
+	margin-left: auto;
+	margin-right: auto;
 }
 .ban02 a{
 	color: #FFF;
 }
-.ban02 a:hover{
-	text-decoration: underline;
-}
+
 .ban03{
-	background-color: #143163;
+	background-color: #082852;
 	min-height: 276px;
 	color: #FFF;
 }
@@ -665,8 +669,14 @@ button, input, .btn, a.btn {
   height:20px;
 	margin-bottom: 15px;
 }
+.ban03 .iconos-redes{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
 .ban04{
-	background-color: #5a6e91;
+	background-color: rgba(0,0,0,0.6);
 	min-height: 276px;
 	color: #FFF;
 }
@@ -676,20 +686,24 @@ button, input, .btn, a.btn {
 	margin: 30px 0px;
 }
 .ban04 .boton{
-	border-radius: 5px;
-  border: 1px solid #FFF;
-  width: 90px;
+	background-color: #822854;
+	border-radius: 1px;
+	-webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+  width: 80%;
   height: 30px;
 	line-height: 30px;
 	text-align: center;
 	margin-top: 60px;
+	text-transform: uppercase;
+	margin-left: auto;
+	margin-right: auto;
 }
 .ban04 a{
 	color: #FFF;
 }
-.ban04 a:hover{
-	text-decoration: underline;
-}
+
 
 /* SECTION BANNERS CLOSE */
 
@@ -872,7 +886,7 @@ button, input, .btn, a.btn {
 	color: #FFF;
 }
 .serv1{
-	background-image: url(assets/images/servicios01.jpg);
+	/* background-image: url(assets/images/servicios01.jpg); */
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 214px;
@@ -883,6 +897,13 @@ button, input, .btn, a.btn {
 	text-align: center;
 	text-transform: uppercase;
 	padding-top: 160px;
+	z-index: 100;
+	position: absolute;
+
+}
+.serv1 img{
+	position: absolute;
+	z-index: 0;
 }
 .serv2{
 	background-image: url(assets/images/servicios02.jpg);
