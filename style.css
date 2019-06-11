@@ -1761,15 +1761,7 @@ footer li.signup-link a:hover {
 		margin-right: auto;
 		margin-bottom: 20px;
 	}
-	.serv1{
-		margin-bottom: 10px;
-	}
-	.serv2{
-		margin-bottom: 10px;
-	}
-	.serv3{
-		margin-bottom: 10px;
-	}
+
 	#formulario {
 		padding: 0px;
 	}
@@ -1779,11 +1771,30 @@ footer li.signup-link a:hover {
 		padding-right: 0px;
 	}
 
+	.serv .tit{
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+		padding-top: 30px;
+	}
+	.serv .desc{
+		font-size: 14px;
+		text-align: center;
+		width: 80%;
+		margin-top: 100px;
+		transform: scale(1);
+	}
+	.serv:hover .tit{
+
+	}
+	.serv:hover .desc{
+
+	}
+
 }
 @media screen and (max-width : 480px) {
-	/* .navbar-nav{
-		display: none;
-	} */
+
 	#hero {
 		background: white url('assets/img/creatives.jpg') 90% -10px no-repeat;
 	}
@@ -1794,9 +1805,7 @@ footer li.signup-link a:hover {
 		margin-top: 30px;
 		width: 30%;
 	}
-	/* .navbar-toggle{
-			display: none;
-	} */
+
 	#menu-principal li{
 		height: 40px;
 		line-height: 40px;
@@ -1805,7 +1814,7 @@ footer li.signup-link a:hover {
 		background: rgb(0,0,0,.5);
 	}
 
-	.padecimientos{
+	/* .padecimientos{
 		background-color: #FFF;
 		margin-bottom: 20px;
 	}
@@ -1908,7 +1917,7 @@ footer li.signup-link a:hover {
 	#malestares {
 		padding: 0px;
 	}
-	
+
 	.serv1{
 		margin-bottom: 10px;
 	}
@@ -1925,6 +1934,6 @@ footer li.signup-link a:hover {
 		text-align: center;
 		padding-left: 0px;
 		padding-right: 0px;
-	}
+	} */
 
 }
