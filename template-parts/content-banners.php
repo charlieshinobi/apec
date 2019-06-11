@@ -27,7 +27,7 @@ $contactanos_youtube   = get_field('contactanos_youtube');
 <section id="banners">
   <div class="container clearfix">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 banprincipal">
         <!-- BACKGROUND IMG -->
         	<img src="<?php echo $banner_principal['url']; ?>" alt="<?php echo $banner_principal['alt']; ?>">
       </div>

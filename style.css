@@ -591,9 +591,15 @@ button, input, .btn, a.btn {
 	padding: 60px 0px;
 }
 .banprincipal{
-	background-image: url(assets/images/banner-principal.jpg);
+	/* background-image: url(assets/images/banner-principal.jpg);
 	background-size: cover;
-	min-height: 552px;
+	min-height: 552px; */
+	padding-left: 3px;
+	padding-right: 0px;
+
+}
+.banprincipal img{
+	max-height: 552px;
 }
 .ban01{
 	background-image: url(assets/images/ban01.jpg);
