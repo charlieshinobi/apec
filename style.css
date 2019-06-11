@@ -450,6 +450,7 @@ body {
 	margin-top: 50px;
 	font-family: Helvetica, 'Helvetica', sans-serif;
 	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
 	/* background: url('../img/tile.jpg') top left repeat; */
 	background-color: #FFF;
 }
@@ -888,6 +889,7 @@ button, input, .btn, a.btn {
 .serv{
 	min-height: 214px;
 	margin-bottom: 10px;
+	/* transition: all .2s ease-in-out; */
 }
 .serv .tit{
 	font-size: 30px;
@@ -901,8 +903,31 @@ button, input, .btn, a.btn {
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-
+	transition: all .2s ease-in-out;
 }
+.serv .desc{
+	font-size: 14px;
+	text-align: center;
+	width: 80%;
+	padding-top: 120px;
+	z-index: 101;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	transform: scale(0);
+	transition: all .2s ease-in-out;
+}
+.serv:hover .tit{
+	transform: translateY(-100px);
+}
+.serv:hover .desc{
+	transform: scale(1);
+}
+
+
+
 .serv img{
 	position: absolute;
 	left: 0;
