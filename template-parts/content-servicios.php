@@ -21,7 +21,7 @@
       ?>
       <a href="<?php echo $servicios_link;?>">
 
-        <div class='col-md-4 <?php echo $name_class; ?>'>
+        <div class='col-md-4 serv'>
           <?php the_post_thumbnail();?>
           <div class="tit"><?php the_title(); ?></div>
         </div>

@@ -885,6 +885,27 @@ button, input, .btn, a.btn {
 	background-color: #f1f1f1;
 	color: #FFF;
 }
+.serv{
+	min-height: 214px;
+}
+.serv .tit{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 160px;
+	z-index: 100;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.serv img{
+	position: absolute;
+	z-index: 0;
+}
 .serv1{
 	/* background-image: url(assets/images/servicios01.jpg); */
 	background-size: cover;
@@ -899,6 +920,10 @@ button, input, .btn, a.btn {
 	padding-top: 160px;
 	z-index: 100;
 	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 .serv1 img{
