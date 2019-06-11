@@ -906,10 +906,11 @@ button, input, .btn, a.btn {
 	transition: all .2s ease-in-out;
 }
 .serv .desc{
+	background-color: rgba(0,0,0,0.6);
 	font-size: 14px;
 	text-align: center;
-	width: 80%;
-	padding-top: 120px;
+	width: 90%;
+	margin-top: 135px;
 	z-index: 101;
 	position: absolute;
 	left: 0;
