@@ -4,7 +4,7 @@
   <div class="container clearfix">
     <div class="row">
       <div class="col-md-4 col-md-offset-4">
-        <div class="titsection">promociones del mes</div>
+        <div class="titsection">anuncios</div>
       </div>
     </div>
     <div class="row">
