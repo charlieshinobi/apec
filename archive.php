@@ -31,7 +31,7 @@ get_header();
 			<?php
 
 			/* Start the Loop */
-			query_posts( 'posts_per_page=100' );
+			//query_posts( 'posts_per_page=100' );
 
 			while ( have_posts() ) :
 				the_post();
