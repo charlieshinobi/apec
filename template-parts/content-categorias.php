@@ -20,7 +20,7 @@ $diagnostico_descripcion   = get_field('diagnostico_descripcion');
 $tratamiento_titulo   = get_field('tratamiento_titulo');
 $tratamiento_descripcion   = get_field('tratamiento_descripcion');
 
-$limit_description = substr($que_descripcion,0,400);
+$limit_description = substr($que_descripcion,0,140);
 
 ?>
 
