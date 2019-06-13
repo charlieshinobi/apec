@@ -25,7 +25,11 @@ get_header();
 					</div>
 				</div>
 
+				<div class="row">
+
+
 			<?php
+
 			/* Start the Loop */
 			while ( have_posts() ) :
 				the_post();
@@ -40,7 +44,10 @@ get_header();
 				
 
 			endwhile;
+			?>
+					</div>
 
+			<?php
 			the_posts_navigation();
 
 		else :
