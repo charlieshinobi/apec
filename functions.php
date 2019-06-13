@@ -169,3 +169,13 @@ function prefix_modify_query_order( $query ) {
   }
 }
 add_action( 'pre_get_posts', 'prefix_modify_query_order' );
+
+//LIMITAR NÚMERO DE POSTEOS EN EL HOME page
+
+// function home_pagination($query) {
+//     if ( $query->is_home  ) {
+//         $query->set('posts_per_page', 1);
+//     }
+// }
+//
+// add_filter('pre_get_posts','home_pagination');

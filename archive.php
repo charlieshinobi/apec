@@ -31,6 +31,8 @@ get_header();
 			<?php
 
 			/* Start the Loop */
+			query_posts( 'posts_per_page=100' );
+
 			while ( have_posts() ) :
 				the_post();
 
@@ -41,14 +43,14 @@ get_header();
 				 */
 				//get_template_part( 'template-parts/content', get_post_type() );
 				get_template_part( 'template-parts/content', 'categorias' );
-				
+
 
 			endwhile;
 			?>
 					</div>
 
 			<?php
-			the_posts_navigation();
+			//the_posts_navigation();
 
 		else :
 
