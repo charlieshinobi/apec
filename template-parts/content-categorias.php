@@ -26,7 +26,7 @@ $limit_description = substr($que_descripcion,0,140);
 
 
 <div class="col-sm-12 col-md-6">
-	<div class="row">
+	<div class="row malestar">
 			<div class="col-md-6">
 				<?php
 						if(has_post_thumbnail()){
