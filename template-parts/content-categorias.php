@@ -27,14 +27,14 @@ $limit_description = substr($que_descripcion,0,140);
 
 <div class="col-sm-12 col-md-6">
 	<div class="row malestar">
-			<div class="col-md-6">
+			<div class="col-md-12">
 				<?php
 						if(has_post_thumbnail()){
 							the_post_thumbnail();
 						}
 				?>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-12">
 					<div class="titmal"><?php the_title(); ?></div>
 					<div class="descmal"><?php echo $limit_description."..."; ?></div>
 					<div class="btnmal"><a href="<?php the_guid(); ?>">Ver más</a></div>
