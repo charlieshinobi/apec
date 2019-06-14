@@ -21,17 +21,22 @@ get_header();
 		while ( have_posts() ) :
 			the_post();
 
-			$categoria_post = get_the_category();
+			$categoria_post_princ = get_the_category();
 			//echo get_category_parents( $categoria_post, true, ' &raquo; ' );
 
-		 	$parentcat = get_cat_name($categoria_post[0]->category_parent);
-			$categoria_post = $categoria_post[0]->cat_name;
+		 	$parentcat = get_cat_name($categoria_post_princ[0]->category_parent);
+			$categoria_post = $categoria_post_princ[0]->cat_name;
 			$categoria_post = strtolower($categoria_post);
 			$parentcat = strtolower($parentcat);
 
 			//get_template_part( 'template-parts/content', get_post_type() );
+			//echo $categoria_post_princ[0]->category;
+			
 			if($parentcat == 'padecimientos'){
 					get_template_part( 'template-parts/content', 'padecimientos' );
+			}
+			else if($categoria_post == 'especialidades'){
+					get_template_part( 'template-parts/content', 'especialidades' );
 			}
 			else{
 
